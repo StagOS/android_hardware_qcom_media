@@ -18,6 +18,8 @@ LOCAL_SHARED_LIBRARIES := liblog libdl
 
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_CFLAGS += -Wno-format
+
 LOCAL_MODULE := libc2dcolorconvert
 
 LOCAL_VENDOR_MODULE := true
